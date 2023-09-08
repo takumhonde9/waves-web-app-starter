@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+}
+
+@media only screen and (min-width: 200px) {
+  .col-1,
+  .col-2,
+  .col-3 {
+    grid-template-columns: 1;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .col-1 {
+    /*your css styles here*/
+    grid-template-columns: 1;
+  }
+
+  .col-2,
+  .col-3 {
+    /*your css styles here*/
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .col-3 {
+    /*your css styles here*/
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

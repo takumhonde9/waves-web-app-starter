@@ -1,0 +1,17 @@
+.avatar {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.sm {
+  height: 30px;
+  width: 30px;
+}
+.base {
+  height: 50px;
+  width: 50px;
+}
+.lg {
+  height: 75px;
+  width: 75px;
+}

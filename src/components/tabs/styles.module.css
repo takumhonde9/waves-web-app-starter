@@ -1,0 +1,35 @@
+.tabs-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-3);
+  border-top: 1px solid var(--colors-base-200);
+  border-bottom: 1px solid var(--colors-base-200);
+}
+
+.tabs-list li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tabs-list li *:first-child {
+  padding: var(--spacing-3) var(--spacing-2);
+  font-size: var(--font-size-3);
+}
+
+.tabs-list li *:nth-child(2) {
+  min-width: 2.5rem;
+  width: 50%;
+}
+
+.tabs-panel {
+  padding-top: var(--spacing-2);
+  padding-bottom: var(--spacing-2);
+}
+
+.tabs-trigger-active {
+  border-bottom: 3px solid var(--colors-base-800);
+}
