@@ -6,6 +6,8 @@ import { IProfile } from '../../types';
 import { GET_PROFILE } from '../../lib';
 import { useAuthContext } from '../../hooks';
 
+import styles from './styles.module.css';
+
 function NavigationBar() {
   const { user } = useAuthContext();
 
@@ -21,10 +23,10 @@ function NavigationBar() {
   }
 
   if (loading) {
-    return <div>loading</div>;
+    return <div className={styles['navigation-placeholder']} />;
   }
   return (
-    <div className='bg-base-800 text-base-100 py-3 px-2 fixed t-0 l-0 r-0'>
+    <div className='bg-base-800 text-base-100 py-3 px-2 fixed t-0 l-0 r-0 z-15'>
       <Container>
         <nav className='h-stack justify-content-between align-items-center'>
           <Link className='text-decoration-none' to={Paths.Root}>

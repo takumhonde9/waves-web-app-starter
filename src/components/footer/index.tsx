@@ -16,7 +16,7 @@ function Footer() {
   const { authorName } = useAppContext();
 
   return (
-    <div className='bg-base-800 text-base-100 py-3 px-2 fixed b-0 l-0 r-0'>
+    <div className='bg-base-800 text-base-100 py-3 px-2 fixed b-0 l-0 r-0 z-15'>
       <Container>
         <footer>
           <small className='font-size-2 font-weight-300'>

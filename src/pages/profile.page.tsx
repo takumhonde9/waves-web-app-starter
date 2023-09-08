@@ -62,7 +62,9 @@ function Posts({ owner }: { owner: IProfile }) {
           ))}
         </Grid>
       ) : (
-        <span>No posts</span>
+        <span className='text-base-400 font-size-2'>
+          No posts at the moment
+        </span>
       )}
     </Fragment>
   );
@@ -128,7 +130,6 @@ function ProfilePage() {
               <span className='text-base-400 font-size-2'>
                 No comments at the moment
               </span>
-              {/*Comments come here*/}
             </TabsPanel>
           </Tabs>
         </div>
