@@ -1,11 +1,11 @@
 # Waves shop
 
-# Technologies
+## Technologies
 
-# Scripts
+## Scripts
 
-# Setup
+## Setup
 
-# Project structure
+## Project structure
 
-# Code style
+## Code style
