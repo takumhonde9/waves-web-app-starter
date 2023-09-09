@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react';
+import { createContext, useState } from 'react';
 import { IAuthContext } from './types';
 import { IMe, GenericProps } from '../../types';
 import { generateIntMaxedAt, voidFunction } from '../../utilities';

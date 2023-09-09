@@ -1,4 +1,4 @@
-import React, { createContext } from 'react';
+import { createContext } from 'react';
 import { IAppContext, AppProviderProps } from './types';
 
 // [Optional] Extend context values: Add baseUrl

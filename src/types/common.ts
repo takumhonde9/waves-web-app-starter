@@ -15,3 +15,10 @@ export interface PaginationParams {
   skip: number;
   limit: number;
 }
+
+export interface ReturnManyQueryModel<T> {
+  total: number;
+  limit: number;
+  skip: number;
+  items: T[];
+}
