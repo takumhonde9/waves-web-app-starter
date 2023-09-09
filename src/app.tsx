@@ -11,9 +11,9 @@ export default function App() {
   return (
     <Routes>
       <Route path={Paths.Root} element={<MainLayout />}>
-        <Route path='' element={<HomePage />} />
-        <Route path='profile/:id' element={<ProfilePage />} />
-        <Route path='*' element={<NotFoundPage />} />
+        <Route path={Paths.Home} element={<HomePage />} />
+        <Route path={Paths.Profile} element={<ProfilePage />} />
+        <Route path={Paths.CatchAll} element={<NotFoundPage />} />
       </Route>
     </Routes>
   );

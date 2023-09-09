@@ -1,6 +1,6 @@
 import { gql } from '@apollo/client';
 
-export const GET_PRODUCT = gql`
+export const GET_PRODUCTS = gql`
   query products($skip: Int!, $limit: Int!) {
     products(skip: $skip, limit: $limit) {
       total

@@ -1,18 +1,30 @@
 :root {
+  /* size */
+  --size-1: 1px;
+
+  --size-50: 50%;
+  --size-100: 100%;
+
+
   /* spacing */
   --spacing-1: 0.25rem;
   --spacing-2: 0.75rem;
   --spacing-3: 1.5rem;
-  --spacing-4: 1.75rem;
-  --spacing-5: 2rem;
+  --spacing-4: 2rem;
+  --spacing-5: 2.5rem;
 
   /* colors */
   --colors-base-100: #ffffff;
   --colors-base-200: #dddddd;
   --colors-base-400: #8f8f8f;
+  --colors-base-600: #565656;
   --colors-base-800: #000000;
 
   --colors-green-400: #69cc07;
+
+  --colors-red-400: #ff4f4f;
+
+  --colors-red-100: #ffefef;
 
   /* font sizes */
   --font-size-1: 0.5rem;

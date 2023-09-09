@@ -8,4 +8,10 @@ export const ApiEndpoint = {
 
 export const Paths = {
   Root: '/',
+  Home: '',
+  Login: 'login',
+  Profile: 'profile/:id',
+  Product: 'products/:id',
+  Cart: 'cart',
+  CatchAll: '*',
 };

@@ -1,10 +1,7 @@
 import { gql } from '@apollo/client';
 
-export const CLEAR_CART = gql`
-  mutation clearCart {
-    clearCart {
-      success
-      message
-    }
+export const LOGIN = gql`
+  mutation login($payload: LoginInput!) {
+    login(payload: $payload)
   }
 `;

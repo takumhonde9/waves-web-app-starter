@@ -8,3 +8,5 @@ export { default as Tabs, TabsTrigger, TabsPanel, TabsList } from './tabs';
 export { default as Button } from './button';
 export { default as Container } from './container';
 export { default as Avatar } from './avatar';
+export { default as ErrorFallback } from './error-fallback';
+export { default as LoadingFallback } from './loading-fallback';

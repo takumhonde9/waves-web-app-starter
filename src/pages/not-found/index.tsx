@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Button } from '../components';
-import { Paths } from '../constants';
+import { Button } from '../../components';
+import { Paths } from '../../constants.ts';
 
 /**
  * A page component that renders components for the not found page.

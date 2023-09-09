@@ -52,6 +52,10 @@ html {
   justify-content: space-between;
 }
 
+.justify-content-end {
+  justify-content: flex-end;
+}
+
 /* position */
 .fixed {
   position: fixed;
@@ -190,6 +194,12 @@ html {
 .mt-3 {
   margin-top: var(--spacing-3);
 }
+.mt-4 {
+  margin-top: var(--spacing-4);
+}
+.mt-5 {
+  margin-top: var(--spacing-5);
+}
 .mb-1 {
   margin-bottom: var(--spacing-1);
 }
@@ -199,6 +209,12 @@ html {
 .mb-3 {
   margin-bottom: var(--spacing-3);
 }
+.mb-4 {
+  margin-bottom: var(--spacing-4);
+}
+.mb-5 {
+   margin-bottom: var(--spacing-5);
+ }
 .ml-1 {
   margin-left: var(--spacing-1);
 }
@@ -241,30 +257,47 @@ html {
   margin-top: var(--spacing-3);
   margin-bottom: var(--spacing-3);
 }
+.my-4 {
+  margin-top: var(--spacing-4);
+  margin-bottom: var(--spacing-4);
+}
+.my-5 {
+  margin-top: var(--spacing-5);
+  margin-bottom: var(--spacing-5);
+}
 
 /* button */
 .button {
   border-radius: 999px;
   font-weight: 600;
+  cursor: pointer;
+
+  transition: all 0.25s linear;
+}
+.button:active:not(:disabled) {
+  transform: scale(0.9);
+}
+.button:disabled {
+  opacity: 0.5;
 }
 .button-sm {
   padding-inline-start: var(--spacing-2);
   padding-inline-end: var(--spacing-2);
-  height: var(--button-size-1);
+  min-height: var(--button-size-1);
   min-width: var(--button-size-1);
   font-size: var(--font-size-2);
 }
 .button-base {
   padding-inline-start: var(--spacing-3);
   padding-inline-end: var(--spacing-3);
-  height: var(--button-size-2);
+  min-height: var(--button-size-2);
   min-width: var(--button-size-2);
   font-size: var(--font-size-3);
 }
 .button-lg {
   padding-inline-start: var(--spacing-4);
   padding-inline-end: var(--spacing-4);
-  height: var(--button-size-3);
+  min-height: var(--button-size-3);
   min-width: var(--button-size-3);
   font-size: var(--font-size-5);
 }
@@ -274,12 +307,18 @@ html {
   /* style to fill 100% of the screen width */
   width: 100vw;
 }
+.w-1\/2 {
+  width: var(--size-50);
+}
 .w-100 {
   /* style to fill 100% of the parent node's width */
-  width: 100%;
+  width: var(--size-100);
 }
 .w-auto {
   width: auto;
+}
+.w-fit {
+  width: fit-content;
 }
 
 /* heights */
@@ -287,9 +326,12 @@ html {
   /* style to fill 100% of the screen height */
   height: 100vh;
 }
+.h-1 {
+  height: var(--size-1);
+}
 .h-100 {
   /* style to fill 100% of the parent node's height */
-  height: 100%;
+  height: var(--size-100);
 }
 .h-auto {
   height: auto;
@@ -305,8 +347,14 @@ html {
 .bg-base-400 {
   background-color: var(--colors-base-400);
 }
+.bg-base-600 {
+  background-color: var(--colors-base-600);
+}
 .bg-base-800 {
   background-color: var(--colors-base-800);
+}
+.bg-red-100 {
+  background-color: var(--colors-red-100);
 }
 
 /* text colors */
@@ -319,8 +367,17 @@ html {
 .text-base-400 {
   color: var(--colors-base-400);
 }
+.text-base-600 {
+  color: var(--colors-base-600);
+}
 .text-base-800 {
   color: var(--colors-base-800);
+}
+.text-green-400 {
+  color: var(--colors-green-400)
+}
+.text-red-400 {
+  color: var(--colors-red-400)
 }
 
 /* font sizes */
@@ -396,6 +453,20 @@ html {
 }
 .z-15 {
   z-index: 15;
+}
+
+/* border radius */
+.radius-1 {
+  border-radius: 5px;
+}
+.radius-2 {
+  border-radius: 10px;
+}
+.radius-3 {
+  border-radius: 15px;
+}
+.radius-full {
+  border-radius: 9999px;
 }
 
 /* custom */
