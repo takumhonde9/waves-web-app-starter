@@ -9,6 +9,8 @@ import { ApolloProvider } from '@apollo/client';
 const rootElement = document.getElementById('root')!;
 const root = ReactDOM.createRoot(rootElement);
 
+// TODO: Please add your name in the App provider's author name prop
+
 root.render(
   <React.StrictMode>
     <ApolloProvider client={client}>
