@@ -81,7 +81,4 @@ The `src` has the following structure:
 2. Use named exports and imports whenever you can.
 3. Try to follow conventions.
 
-## Designs
-
-The web-app design can be found [here](https://www.figma.com/file/Z4n7QSYdShwUPK4FKEvK2g/Waves-(Take-home)?type=design&node-id=0%3A1&mode=design&t=uSm7sHeWnwXIDZrN-1)
 
